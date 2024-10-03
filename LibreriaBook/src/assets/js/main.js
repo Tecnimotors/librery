@@ -426,7 +426,7 @@ Description: Bookle - Book Store WooCommerce Html Template
 
                 function qtyminus(e) {
                     const current = Number(input.value);
-                    const newval = (current - step);
+                    let newval = (current - step);
                     if (newval < min) {
                         newval = min;
                     } else if (newval > max) {
@@ -438,7 +438,7 @@ Description: Bookle - Book Store WooCommerce Html Template
 
                 function qtyplus(e) {
                     const current = Number(input.value);
-                    const newval = (current + step);
+                    let newval = (current + step);
                     if (newval > max) newval = max;
                     input.value = Number(newval);
                     e.preventDefault();
