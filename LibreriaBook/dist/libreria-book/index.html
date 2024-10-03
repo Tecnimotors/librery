@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+<!--<< Header Area >>-->
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="gramentheme">
+    <meta name="description" content="Bookle - Book Store WooCommerce Html Template ">
+    <!-- ======== Page title ============ -->
+    <title>Liberia - Book Store WooCommerce Html Template</title>
+    
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <!--
+    <link rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+-->
+<style>@import"https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Moon+Dance&display=swap";:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-black:#000;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-primary-rgb:13, 110, 253;--bs-secondary-rgb:108, 117, 125;--bs-success-rgb:25, 135, 84;--bs-info-rgb:13, 202, 240;--bs-warning-rgb:255, 193, 7;--bs-danger-rgb:220, 53, 69;--bs-light-rgb:248, 249, 250;--bs-dark-rgb:33, 37, 41;--bs-primary-text-emphasis:#052c65;--bs-secondary-text-emphasis:#2b2f32;--bs-success-text-emphasis:#0a3622;--bs-info-text-emphasis:#055160;--bs-warning-text-emphasis:#664d03;--bs-danger-text-emphasis:#58151c;--bs-light-text-emphasis:#495057;--bs-dark-text-emphasis:#495057;--bs-primary-bg-subtle:#cfe2ff;--bs-secondary-bg-subtle:#e2e3e5;--bs-success-bg-subtle:#d1e7dd;--bs-info-bg-subtle:#cff4fc;--bs-warning-bg-subtle:#fff3cd;--bs-danger-bg-subtle:#f8d7da;--bs-light-bg-subtle:#fcfcfd;--bs-dark-bg-subtle:#ced4da;--bs-primary-border-subtle:#9ec5fe;--bs-secondary-border-subtle:#c4c8cb;--bs-success-border-subtle:#a3cfbb;--bs-info-border-subtle:#9eeaf9;--bs-warning-border-subtle:#ffe69c;--bs-danger-border-subtle:#f1aeb5;--bs-light-border-subtle:#e9ecef;--bs-dark-border-subtle:#adb5bd;--bs-white-rgb:255, 255, 255;--bs-black-rgb:0, 0, 0;--bs-font-sans-serif:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--bs-font-monospace:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:1rem;--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#212529;--bs-body-color-rgb:33, 37, 41;--bs-body-bg:#fff;--bs-body-bg-rgb:255, 255, 255;--bs-emphasis-color:#000;--bs-emphasis-color-rgb:0, 0, 0;--bs-secondary-color:rgba(33, 37, 41, .75);--bs-secondary-color-rgb:33, 37, 41;--bs-secondary-bg:#e9ecef;--bs-secondary-bg-rgb:233, 236, 239;--bs-tertiary-color:rgba(33, 37, 41, .5);--bs-tertiary-color-rgb:33, 37, 41;--bs-tertiary-bg:#f8f9fa;--bs-tertiary-bg-rgb:248, 249, 250;--bs-heading-color:inherit;--bs-link-color:#0d6efd;--bs-link-color-rgb:13, 110, 253;--bs-link-decoration:underline;--bs-link-hover-color:#0a58ca;--bs-link-hover-color-rgb:10, 88, 202;--bs-code-color:#d63384;--bs-highlight-color:#212529;--bs-highlight-bg:#fff3cd;--bs-border-width:1px;--bs-border-style:solid;--bs-border-color:#dee2e6;--bs-border-color-translucent:rgba(0, 0, 0, .175);--bs-border-radius:.375rem;--bs-border-radius-sm:.25rem;--bs-border-radius-lg:.5rem;--bs-border-radius-xl:1rem;--bs-border-radius-xxl:2rem;--bs-border-radius-2xl:var(--bs-border-radius-xxl);--bs-border-radius-pill:50rem;--bs-box-shadow:0 .5rem 1rem rgba(0, 0, 0, .15);--bs-box-shadow-sm:0 .125rem .25rem rgba(0, 0, 0, .075);--bs-box-shadow-lg:0 1rem 3rem rgba(0, 0, 0, .175);--bs-box-shadow-inset:inset 0 1px 2px rgba(0, 0, 0, .075);--bs-focus-ring-width:.25rem;--bs-focus-ring-opacity:.25;--bs-focus-ring-color:rgba(13, 110, 253, .25);--bs-form-valid-color:#198754;--bs-form-valid-border-color:#198754;--bs-form-invalid-color:#dc3545;--bs-form-invalid-border-color:#dc3545 }*,:after,:before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}h1,h3,h4{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2;color:var(--bs-heading-color)}h1{font-size:calc(1.375rem + 1.5vw)}@media (min-width:1200px){h1{font-size:2.5rem}}h3{font-size:calc(1.3rem + .6vw)}@media (min-width:1200px){h3{font-size:1.75rem}}h4{font-size:calc(1.275rem + .3vw)}@media (min-width:1200px){h4{font-size:1.5rem}}p{margin-top:0;margin-bottom:1rem}ul{padding-left:2rem}ul{margin-top:0;margin-bottom:1rem}ul ul{margin-bottom:0}a{color:rgba(var(--bs-link-color-rgb),var(--bs-link-opacity, 1));text-decoration:underline}a:hover{--bs-link-color-rgb:var(--bs-link-hover-color-rgb) }a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}img{vertical-align:middle}label{display:inline-block}button{border-radius:0}button:focus:not(:focus-visible){outline:0}button,input,select{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,select{text-transform:none}select{word-wrap:normal}select:disabled{opacity:1}[type=button],[type=submit],button{-webkit-appearance:button}[type=button]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled){cursor:pointer}.container{--bs-gutter-x:1.5rem;--bs-gutter-y:0;width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}@media (min-width:1400px){.container{max-width:1595px}}:root{--bs-breakpoint-xs:0;--bs-breakpoint-sm:576px;--bs-breakpoint-md:768px;--bs-breakpoint-lg:992px;--bs-breakpoint-xl:1200px;--bs-breakpoint-xxl:1400px }.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}.col-3{flex:0 0 auto;width:25%}.col-6{flex:0 0 auto;width:50%}@media (min-width:768px){.col-md-6{flex:0 0 auto;width:50%}}@media (min-width:992px){.col-lg-2{flex:0 0 auto;width:16.66666667%}.col-lg-4{flex:0 0 auto;width:33.33333333%}.col-lg-10{flex:0 0 auto;width:83.33333333%}}@media (min-width:1200px){.col-xl-3{flex:0 0 auto;width:25%}.col-xl-4{flex:0 0 auto;width:33.33333333%}.col-xl-8{flex:0 0 auto;width:66.66666667%}}@media (min-width:1400px){.col-xxl-2{flex:0 0 auto;width:16.66666667%}.col-xxl-10{flex:0 0 auto;width:83.33333333%}}.form-check-input{--bs-form-check-bg:var(--bs-body-bg);flex-shrink:0;width:1em;height:1em;margin-top:.25em;vertical-align:top;appearance:none;background-color:var(--bs-form-check-bg);background-image:var(--bs-form-check-bg-image);background-repeat:no-repeat;background-position:center;background-size:contain;border:var(--bs-border-width) solid var(--bs-border-color);-webkit-print-color-adjust:exact;print-color-adjust:exact}.form-check-input[type=checkbox]{border-radius:.25em}.form-check-input[type=radio]{border-radius:50%}.form-check-input:active{filter:brightness(90%)}.form-check-input:focus{border-color:#86b7fe;outline:0;box-shadow:0 0 0 .25rem #0d6efd40}.form-check-input:checked{background-color:#0d6efd;border-color:#0d6efd}.form-check-input:checked[type=checkbox]{--bs-form-check-bg-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e") }.form-check-input:checked[type=radio]{--bs-form-check-bg-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e") }.form-check-input[type=checkbox]:indeterminate{background-color:#0d6efd;border-color:#0d6efd;--bs-form-check-bg-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e") }.form-check-input:disabled{pointer-events:none;filter:none;opacity:.5}.form-check-input:disabled~.form-check-label{cursor:default;opacity:.5}.fade{transition:opacity .15s linear}@media (prefers-reduced-motion:reduce){.fade{transition:none}}.fade:not(.show){opacity:0}.btn-close{--bs-btn-close-color:#000;--bs-btn-close-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");--bs-btn-close-opacity:.5;--bs-btn-close-hover-opacity:.75;--bs-btn-close-focus-shadow:0 0 0 .25rem rgba(13, 110, 253, .25);--bs-btn-close-focus-opacity:1;--bs-btn-close-disabled-opacity:.25;--bs-btn-close-white-filter:invert(1) grayscale(100%) brightness(200%);box-sizing:content-box;width:1em;height:1em;padding:.25em;color:var(--bs-btn-close-color);background:transparent var(--bs-btn-close-bg) center/1em auto no-repeat;border:0;border-radius:.375rem;opacity:var(--bs-btn-close-opacity)}.btn-close:hover{color:var(--bs-btn-close-color);text-decoration:none;opacity:var(--bs-btn-close-hover-opacity)}.btn-close:focus{outline:0;box-shadow:var(--bs-btn-close-focus-shadow);opacity:var(--bs-btn-close-focus-opacity)}.btn-close:disabled{pointer-events:none;-webkit-user-select:none;user-select:none;opacity:var(--bs-btn-close-disabled-opacity)}.modal{--bs-modal-zindex:1055;--bs-modal-width:500px;--bs-modal-padding:1rem;--bs-modal-margin:.5rem;--bs-modal-color: ;--bs-modal-bg:var(--bs-body-bg);--bs-modal-border-color:var(--bs-border-color-translucent);--bs-modal-border-width:var(--bs-border-width);--bs-modal-border-radius:var(--bs-border-radius-lg);--bs-modal-box-shadow:var(--bs-box-shadow-sm);--bs-modal-inner-border-radius:calc(var(--bs-border-radius-lg) - (var(--bs-border-width)));--bs-modal-header-padding-x:1rem;--bs-modal-header-padding-y:1rem;--bs-modal-header-padding:1rem 1rem;--bs-modal-header-border-color:var(--bs-border-color);--bs-modal-header-border-width:var(--bs-border-width);--bs-modal-title-line-height:1.5;--bs-modal-footer-gap:.5rem;--bs-modal-footer-bg: ;--bs-modal-footer-border-color:var(--bs-border-color);--bs-modal-footer-border-width:var(--bs-border-width);position:fixed;top:0;left:0;z-index:var(--bs-modal-zindex);display:none;width:100%;height:100%;overflow-x:hidden;overflow-y:auto;outline:0}.modal-dialog{position:relative;width:auto;margin:var(--bs-modal-margin);pointer-events:none}.modal.fade .modal-dialog{transition:transform .3s ease-out;transform:translateY(-50px)}@media (prefers-reduced-motion:reduce){.modal.fade .modal-dialog{transition:none}}.modal-content{position:relative;display:flex;flex-direction:column;width:100%;color:var(--bs-modal-color);pointer-events:auto;background-color:var(--bs-modal-bg);background-clip:padding-box;border:var(--bs-modal-border-width) solid var(--bs-modal-border-color);border-radius:var(--bs-modal-border-radius);outline:0}.modal-body{position:relative;flex:1 1 auto;padding:var(--bs-modal-padding)}@media (min-width:576px){.modal{--bs-modal-margin:1.75rem;--bs-modal-box-shadow:var(--bs-box-shadow) }.modal-dialog{max-width:var(--bs-modal-width);margin-right:auto;margin-left:auto}}.d-flex{display:flex!important}.d-none{display:none!important}.justify-content-between{justify-content:space-between!important}.align-items-center{align-items:center!important}.mt-3{margin-top:1rem!important}.mt-4{margin-top:1.5rem!important}.mb-3{margin-bottom:1rem!important}.mb-5{margin-bottom:3rem!important}.text-center{text-align:center!important}.rounded-0{border-radius:0!important}@media (min-width:768px){.d-md-block{display:block!important}}@media (min-width:992px){.ps-lg-5{padding-left:3rem!important}}@media (min-width:1200px){.d-xl-block{display:block!important}}.fa-light,.fa-regular,.fa-solid,.fab,.fal,.far,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:var(--fa-display,inline-block);font-style:normal;font-variant:normal;line-height:1;text-rendering:auto}.fa-angle-down:before{content:"\f107"}.fa-arrow-right-long:before{content:"\f178"}.fa-cart-shopping:before{content:"\f07a"}.fa-chevron-up:before{content:"\f077"}.fa-chevrons-right:before{content:"\f324"}.fa-clock:before{content:"\f017"}.fa-comments:before{content:"\f086"}.fa-envelope:before{content:"\f0e0"}.fa-grid-2:before{content:"\e196"}.fa-heart:before{content:"\f004"}.fa-map-marker-alt:before{content:"\f3c5"}.fa-search:before{content:"\f002"}.fa-paper-plane:before{content:"\f1d8"}.fa-phone:before{content:"\f095"}.fa-user:before{content:"\f007"}.fa-times:before{content:"\f00d"}:root{--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"}@font-face{font-family:"Font Awesome 6 Brands";font-style:normal;font-weight:400;font-display:block;src:url(fa-brands-400.9551593186fe5149.woff2) format("woff2"),url(fa-brands-400.992138ef85dec68b.ttf) format("truetype")}.fab{font-family:"Font Awesome 6 Brands";font-weight:400}.fa-facebook-f:before{content:"\f39e"}.fa-linkedin-in:before{content:"\f0e1"}.fa-twitter:before{content:"\f099"}.fa-youtube:before{content:"\f167"}:root{--fa-font-duotone:normal 900 1em/1 "Font Awesome 6 Duotone"}@font-face{font-family:"Font Awesome 6 Duotone";font-style:normal;font-weight:900;font-display:block;src:url(fa-duotone-900.917758838533decc.woff2) format("woff2"),url(fa-duotone-900.d21cc3222497ed74.ttf) format("truetype")}:root{--fa-font-light:normal 300 1em/1 "Font Awesome 6 Pro"}@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:300;font-display:block;src:url(fa-light-300.3f838c84a98c2f4e.woff2) format("woff2"),url(fa-light-300.88ccdef63ca6b226.ttf) format("truetype")}.fa-light,.fal{font-family:"Font Awesome 6 Pro";font-weight:300}:root{--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Pro"}@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:400;font-display:block;src:url(fa-regular-400.66eb0757ab78c19f.woff2) format("woff2"),url(fa-regular-400.26ed472d42ff3aa4.ttf) format("truetype")}.fa-regular,.far{font-family:"Font Awesome 6 Pro";font-weight:400}:root{--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Pro"}@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:900;font-display:block;src:url(fa-solid-900.dd5b7b2e9b317ca1.woff2) format("woff2"),url(fa-solid-900.0111ff7c49ef27ab.ttf) format("truetype")}.fa-solid,.fas{font-family:"Font Awesome 6 Pro";font-weight:900}:root{--fa-font-thin:normal 100 1em/1 "Font Awesome 6 Pro"}@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:100;font-display:block;src:url(fa-thin-100.9504983ad0bc6c47.woff2) format("woff2"),url(fa-thin-100.7c64f7d8ad45f9de.ttf) format("truetype")}@charset "UTF-8";@keyframes fadeInLeft{0%{opacity:0;transform:translate(-20px)}to{opacity:1;transform:translate(0)}}.fadeInLeft{animation-name:fadeInLeft}@keyframes fadeInRight{0%{opacity:0;transform:translate(20px)}to{opacity:1;transform:translate(0)}}.fadeInRight{animation-name:fadeInRight}@keyframes fadeInUp{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.fadeInUp{animation-name:fadeInUp}button::-moz-focus-inner{padding:0;border:0}:root{--swiper-theme-color:#007aff}:root{--swiper-navigation-size:44px}.icon-icon-5:before{content:"\e904"}.icon-icon-6:before{content:"\e905"}.icon-icon-7:before{content:"\e906"}.icon-icon-8:before{content:"\e907"}:root{--body:#fff;--black:#000;--white:#fff;--theme:#036280;--theme2:#FF6500;--header:#012E4A;--text:#4F536C;--border:#D4DCFF;--border-2:#D4DCED;--border-3:#D0E1E7;--bg:#D0E1E7;--bg2:#F5F5F5;--box-shadow:0px 4px 25px 0px rgba(0, 0, 0, .06)}.theme-btn{position:relative;z-index:2;overflow:hidden;vertical-align:middle;display:inline-block;border:none;text-transform:capitalize;text-align:center;background-color:var(--theme);color:var(--white);font-size:16px;font-weight:700;line-height:1;padding:20px 40px;min-width:170px;border-radius:100px}.theme-btn i{margin-left:5px}.theme-btn:before{content:"";position:absolute;height:100%;bottom:0;left:0;width:0;background-color:var(--theme2);z-index:-1;transition:all .4s ease-out;border-radius:inherit}.theme-btn:hover{color:var(--white);box-shadow:none}.theme-btn:hover:before{width:100%}@media (max-width: 767px){.theme-btn{padding:20px 32px}}@media (max-width: 575px){.theme-btn{padding:18px 30px;font-size:14px}}body{font-family:Inter,sans-serif;font-size:16px;font-weight:400;line-height:28px;color:var(--text);background-color:var(--white);padding:0;margin:0;overflow-x:hidden}ul{padding:0;margin:0;list-style:none}button{border:none;background-color:transparent;padding:0}input:focus{color:var(--header);outline:none}input{color:var(--white)}h1,h3,h4{font-family:Inter,sans-serif;margin:0;padding:0;color:var(--header);text-transform:capitalize;transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out}h1{font-size:42px;font-weight:700;line-height:120%}h3{font-size:18px;font-weight:700;line-height:145%}@media (max-width: 767px){h3{font-size:18px}}h4{font-size:20px;font-weight:700;line-height:130%}a{text-decoration:none;outline:none!important;cursor:pointer;color:var(--header);transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out}a:hover{color:var(--theme2)}p,span{margin:0;transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out}@keyframes spinner{to{transform:rotate(360deg)}}@keyframes letters-loading{0%,75%,to{opacity:0;transform:rotateY(-90deg)}25%,50%{opacity:1;transform:rotateY(0)}}.float-bob-y{animation-name:float-bob-y;animation-duration:3s;animation-iteration-count:infinite;animation-timing-function:linear}@keyframes float-bob-y{0%{transform:translateY(-30px)}50%{transform:translateY(-10px)}to{transform:translateY(-30px)}}.modal-dialog{max-width:88%;position:relative}@media (max-width: 767px){.modal-dialog{max-width:95%;margin:0 auto}}.modal-dialog .close-btn{position:absolute;top:5%;right:5%;z-index:5}@media (max-width: 1600px){.modal-dialog .close-btn{position:absolute;top:1%;right:1%}}.modal-dialog .close-btn .btn-close{width:60px;height:60px;line-height:60px;text-align:center;background-color:var(--bg);color:var(--header);border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;cursor:pointer}@media (max-width: 767px){.modal-dialog .close-btn .btn-close{width:40px;height:40px;line-height:40px}}.modal-dialog .modal-content .modal-body{z-index:3}@media (max-width: 1600px){.modal-dialog .modal-content .modal-body{padding:100px 70px}.modal-dialog .modal-content .modal-body .banner{display:none}}@media (max-width: 767px){.modal-dialog .modal-content .modal-body{padding:100px 5px}.modal-dialog .modal-content .modal-body .banner{display:none}}.modal-dialog .modal-content .modal-body .identityBox{display:grid;grid-template-columns:repeat(2,1fr);place-items:center;place-content:center}@media (max-width: 1600px){.modal-dialog .modal-content .modal-body .identityBox{grid-template-columns:repeat(1,1fr)}}.modal-dialog .modal-content .modal-body .identityBox .banner{position:relative}.modal-dialog .modal-content .modal-body .identityBox .banner .loginBg img{object-fit:cover;width:100%;height:948px}.modal-dialog .modal-content .modal-body .identityBox .banner .signUpBg img{object-fit:cover;width:100%;height:911px}.modal-dialog .modal-content .modal-body .identityBox .banner .login-btn{position:absolute;top:60%;left:2%;padding:6px 20px;transform:rotate(-90deg);background-color:var(--theme2);color:var(--white);-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg)}.modal-dialog .modal-content .modal-body .identityBox .banner .register-btn{position:absolute;top:40%;left:-5%;transform:rotate(-90deg);background-color:var(--theme2);-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);background-color:transparent;color:var(--white);border:1px solid var(--white);padding:10px 15px}.modal-dialog .modal-content .modal-body .identityBox .banner .register-btn:hover{border:1px solid var(--theme2)}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper{padding:50px 60px;background-color:var(--white);box-shadow:0 4px 25px #384bff14}@media (max-width: 767px){.modal-dialog .modal-content .modal-body .identityBox .form-wrapper{padding:20px}}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .inputField{padding:20px 10px;border-top:0;border-left:0;border-right:0;border-bottom:1px solid #E5E5E5;width:100%;margin:5px 0}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper h1{color:#012e4a;font-family:Inter,sans-serif;font-size:40px;font-style:normal;font-weight:700;line-height:50px;text-transform:capitalize}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .loginBtn{width:100%}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .loginBtn a.theme-btn{display:block}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .orting-badge{position:relative;text-align:center;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:500;color:#445375;margin:28px 0}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .orting-badge:before{position:absolute;left:0;content:"";height:1px;width:44%;background:#e5e5e5}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .orting-badge:after{position:absolute;right:0;content:"";height:1px;width:44%;background:#e5e5e5}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .another-option{display:block;padding:17px 30px;background-color:var(--white);border:1px solid #E5E5E5;margin:30px 0;width:100%}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .another-option img{display:inline-block;margin-right:80px}@media (max-width: 767px){.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .another-option img{margin-right:20px}}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .another-option-two img{display:inline-block;margin-right:80px}@media (max-width: 767px){.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .another-option-two img{margin-right:20px}}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .input-check{display:flex;justify-content:space-between;margin-top:20px;margin-bottom:40px}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .input-check .checkbox-wrapper .form-check-input{margin-top:.5em}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .input-check .checkbox-wrapper label{margin-left:10px;color:#4f536c;font-family:Inter,sans-serif;font-size:14px;font-style:normal;font-weight:400;line-height:14px}.modal-dialog .modal-content .modal-body .identityBox .form-wrapper .form-check-label{margin-left:10px}.footer-widgets-wrapper{padding:90px 0 120px;position:relative;z-index:9}.footer-widgets-wrapper .plane-shape{position:absolute;bottom:5%;left:0}@media (max-width: 1199px){.footer-widgets-wrapper .plane-shape{display:none}}@media (max-width: 1199px){.footer-widgets-wrapper{padding:70px 0 100px}}@media (max-width: 991px){.footer-widgets-wrapper{padding:50px 0 70px}}.footer-widgets-wrapper .single-footer-widget{margin-top:30px}.footer-widgets-wrapper .single-footer-widget .widget-head{margin-bottom:30px}@media (max-width: 575px){.footer-widgets-wrapper .single-footer-widget .widget-head{margin-bottom:20px}}.footer-widgets-wrapper .single-footer-widget .widget-head h3{font-weight:700;color:var(--white);font-size:24px;display:inline-block;position:relative;padding-bottom:20px}.footer-widgets-wrapper .single-footer-widget .widget-head h3:before{position:absolute;bottom:0;left:0;content:"";width:25px;height:2px;background-color:var(--theme2)}.footer-widgets-wrapper .single-footer-widget .widget-head h3:after{position:absolute;bottom:0;left:40px;content:"";width:55px;height:2px;background-color:var(--white)}@media (max-width: 767px){.footer-widgets-wrapper .single-footer-widget .widget-head h3{font-size:23px}}@media (max-width: 575px){.footer-widgets-wrapper .single-footer-widget .widget-head h3{font-size:20px}}.footer-widgets-wrapper .single-footer-widget .footer-content p{color:#ffffffd9}.footer-widgets-wrapper .single-footer-widget .footer-content .social-icon{margin-top:40px;gap:10px;position:relative;z-index:9}@media (max-width: 575px){.footer-widgets-wrapper .single-footer-widget .footer-content .social-icon{margin-top:20px}}.footer-widgets-wrapper .single-footer-widget .footer-content .social-icon a{width:36px;height:36px;line-height:36px;text-align:center;border:1px solid rgba(255,255,255,.2);background-color:transparent;color:var(--white)}.footer-widgets-wrapper .single-footer-widget .footer-content .social-icon a:hover{background-color:var(--theme2)}.footer-widgets-wrapper .single-footer-widget .footer-content .footer-input{position:relative;margin-top:40px}.footer-widgets-wrapper .single-footer-widget .footer-content .footer-input input{background:transparent;border:none;outline:none;padding:18px 20px;width:100%;border-radius:8px;border:1px solid rgba(255,255,255,.3);color:#fffc}.footer-widgets-wrapper .single-footer-widget .footer-content .footer-input input::placeholder{color:#fffc}.footer-widgets-wrapper .single-footer-widget .footer-content .footer-input .newsletter-btn{position:absolute;top:5px;right:5px;width:60px;height:55px;line-height:60px;border-radius:8px;text-align:center;background-color:var(--theme);color:var(--white);bottom:5px}.footer-widgets-wrapper .single-footer-widget .footer-content .footer-input .newsletter-btn i{font-size:24px}.footer-widgets-wrapper .single-footer-widget .list-area li{transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;font-weight:500}.footer-widgets-wrapper .single-footer-widget .list-area li:not(:last-child){margin-bottom:20px}.footer-widgets-wrapper .single-footer-widget .list-area li a{color:var(--white)}.footer-widgets-wrapper .single-footer-widget .list-area li a i{margin-right:5px}.footer-widgets-wrapper .single-footer-widget .list-area li:hover{margin-left:5px}.footer-widgets-wrapper .single-footer-widget .list-area li:hover a{color:var(--theme2)}.footer-bottom{position:relative;z-index:9;background:#036280;padding:18px 0}@media (max-width: 767px){.footer-bottom .footer-wrapper{flex-wrap:wrap;gap:20px;justify-content:center!important}}.footer-bottom .footer-wrapper p{color:var(--white)}.footer-bottom .footer-wrapper p a{color:var(--white);font-weight:600}.footer-bottom .footer-wrapper .brand-logo{display:flex;align-items:center;gap:20px}.footer-bottom .footer-wrapper .brand-logo li{border:1px solid rgba(255,255,255,.5);padding:5px 7px;border-radius:6px}.contact-info-area{padding-top:120px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.2);padding-bottom:50px}@media (max-width: 1399px){.contact-info-area{flex-wrap:wrap;gap:40px;padding-top:80px;justify-content:initial}}@media (max-width: 575px){.contact-info-area{gap:30px}}.contact-info-area .contact-info-items{display:flex;align-items:center;gap:20px;justify-content:space-between;position:relative}@media (max-width: 1199px){.contact-info-area .contact-info-items{flex-wrap:wrap}}.contact-info-area .contact-info-items .icon{width:65px;height:65px;line-height:65px;text-align:center;position:relative;border:2px dotted var(--white);border-radius:50%;font-size:30px;color:var(--white)}.contact-info-area .contact-info-items .content p{color:var(--white);margin-bottom:5px}.contact-info-area .contact-info-items .content h3{font-size:24px;color:var(--white);text-transform:initial}.contact-info-area .contact-info-items .content h3 a{color:var(--white)}.header-top-wrapper{display:flex;align-items:center;justify-content:end;gap:300px}@media (max-width: 1600px){.header-top-wrapper{gap:200px}}@media (max-width: 1399px){.header-top-wrapper{gap:20px}}.header-top-wrapper .contact-list{display:flex;align-items:center;gap:35px}@media (max-width: 1399px){.header-top-wrapper .contact-list{gap:20px}}.header-top-wrapper .contact-list li{border-right:2px solid var(--white);padding-right:35px}@media (max-width: 1399px){.header-top-wrapper .contact-list li{padding-right:25px}}.header-top-wrapper .contact-list li i{color:var(--white);margin-right:5px}.header-top-wrapper .contact-list li a,.header-top-wrapper .contact-list li span{color:var(--white)}.header-top-wrapper .contact-list li:last-child{border-right:0}.header-top-wrapper .list{display:flex;align-items:center;gap:30px}.header-top-wrapper .list li i{color:var(--white);margin-right:10px}.header-top-wrapper .list li a,.header-top-wrapper .list li button{color:var(--white)}.header-top-1{padding:14px 0;background-color:var(--theme)}@media (max-width: 1199px){.header-top-1{display:none}}.header-main{display:flex;align-items:center;justify-content:space-between}@media (max-width: 1199px){.header-main .main-menu{display:none}}.header-main .main-menu ul{margin-bottom:0}.header-main .main-menu ul li{position:relative;list-style:none;display:inline-block;margin-inline-end:40px;padding:28px 0}@media (max-width: 1600px){.header-main .main-menu ul li{margin-inline-end:25px}}@media (max-width: 1399px){.header-main .main-menu ul li{margin-inline-end:30px}}.header-main .main-menu ul li:last-child{margin-right:0}.header-main .main-menu ul li a{display:inline-block;font-size:16px;font-weight:600;color:var(--header);padding:15px 0;text-align:left;position:relative;text-transform:capitalize;transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out}.header-main .main-menu ul li a i{margin-left:4px}.header-main .main-menu ul li a:hover{color:var(--theme2)!important}.header-main .main-menu ul li .submenu{position:absolute;top:100%;inset-inline-start:0;min-width:240px;background:var(--white);z-index:99999;visibility:hidden;opacity:0;transform-origin:top center;color:var(--header);box-shadow:0 0 10px #0003;-webkit-box-shadow:0px 0px 10px 0px rgba(0,0,0,.2);-moz-box-shadow:0px 0px 10px 0px rgba(0,0,0,.2);transform:translateY(10px);transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out}.header-main .main-menu ul li .submenu li{display:block;width:100%;margin:0;padding:0}.header-main .main-menu ul li .submenu li a{position:relative;z-index:11;font-size:16px;font-weight:600;color:var(--header);padding:11px 25px;width:100%;border-bottom:1px solid #eeeeee}.header-main .main-menu ul li .submenu li a:hover{color:var(--theme)!important}.header-main .main-menu ul li .submenu li:last-child a{border:none}.header-main .main-menu ul li .submenu li .submenu{inset-inline-start:100%;top:0;visibility:hidden;opacity:0}.header-main .main-menu ul li .submenu li:hover>a{background:var(--theme);color:var(--white)!important}.header-main .main-menu ul li .submenu li:hover>a:after{color:var(--theme)}.header-main .main-menu ul li .submenu li:hover>.submenu{transform:translateY(1%);visibility:visible;opacity:1}.header-main .main-menu ul li .submenu li.has-dropdown>a:after{position:absolute;top:50%;inset-inline-end:25px;transform:translateY(-50%);color:var(--theme)}.header-main .main-menu ul li:hover>a{color:var(--theme2)}.header-main .main-menu ul li:hover>a:after{color:var(--theme)}.header-main .main-menu ul li:hover>.submenu{visibility:visible;opacity:1;transform:translateY(0)}.header-main .sidebar__toggle{cursor:pointer;font-size:20px;color:var(--white)}.header-1{background-color:var(--white)}.header-1 .header-left{display:flex;align-items:center;gap:50px;position:relative}@media (max-width: 1600px){.header-1 .header-left{gap:280px}}@media (max-width: 1399px){.header-1 .header-left{gap:50px}}@media (max-width: 1199px){.header-1 .header-left{gap:105px}}.header-1 .header-left .logo{margin-bottom:50px}@media (max-width: 1199px){.header-1 .header-left .logo{margin-bottom:0}}.header-1 .header-left .logo a{position:relative;margin-right:70px;z-index:5}@media (max-width: 1600px){.header-1 .header-left .logo a{margin-left:10px}}.header-1 .header-main:before{content:"";position:absolute;top:-1%;left:-3%;width:458px;height:177px;z-index:2;border-radius:0 100px 0 0;background-color:var(--header);-webkit-border-radius:0px 100px 0px 0px;-moz-border-radius:0px 100px 0px 0px;-ms-border-radius:0px 100px 0px 0px;-o-border-radius:0px 100px 0px 0px}@media (max-width: 1600px){.header-1 .header-main:before{width:290px}}@media (max-width: 1399px){.header-1 .header-main:before{width:350px;height:170px}}@media (max-width: 1199px){.header-1 .header-main:before{width:350px;height:86px}}@media (max-width: 991px){.header-1 .header-main:before{width:250px;height:89px}}.header-1 .header-main:after{content:"";position:absolute;top:-1%;left:-3%;width:470px;height:177px;z-index:1;border-radius:0 100px 0 0;background:var(--white);-webkit-border-radius:0px 100px 0px 0px;-moz-border-radius:0px 100px 0px 0px;-ms-border-radius:0px 100px 0px 0px;-o-border-radius:0px 100px 0px 0px}@media (max-width: 1600px){.header-1 .header-main:after{width:300px}}@media (max-width: 1399px){.header-1 .header-main:after{width:360px;height:170px}}@media (max-width: 1199px){.header-1 .header-main:after{width:360px;height:86px}}@media (max-width: 991px){.header-1 .header-main:after{width:250px;height:89px}}@media (max-width: 1199px){.header-1 .header-main{padding:15px 0}}.header-1 .header-main .main-menu ul li a{color:#241442;font-family:Inter,sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:26px;text-transform:capitalize}.header-1 .header-main .main-menu ul li a i{margin-left:4px}.header-1 .header-main .main-menu ul li a:hover{color:var(--theme2)!important}.header-1 .header-main .main-menu ul li .submenu{position:absolute;top:100%;inset-inline-start:0;min-width:240px;background:var(--white);z-index:99999;visibility:hidden;opacity:0;transform-origin:top center;color:var(--header);box-shadow:0 0 10px #0003;-webkit-box-shadow:0px 0px 10px 0px rgba(0,0,0,.2);-moz-box-shadow:0px 0px 10px 0px rgba(0,0,0,.2);transform:translateY(10px);transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out}.header-1 .header-main .main-menu ul li .submenu li{display:block;width:100%;margin:0;padding:0}.header-1 .header-main .main-menu ul li .submenu li a{position:relative;z-index:11;font-size:16px;font-weight:600;color:var(--header);padding:11px 25px;width:100%;border-bottom:1px solid #eeeeee}.header-1 .header-main .main-menu ul li .submenu li:last-child a{border:none}.header-1 .header-main .main-menu ul li .submenu li .submenu{inset-inline-start:100%;top:0;visibility:hidden;opacity:0}.header-1 .header-main .main-menu ul li .submenu li:hover>a{background:var(--theme2);color:var(--white)!important}.header-1 .header-main .main-menu ul li .submenu li:hover>a:after{color:var(--theme)}.header-1 .header-main .main-menu ul li .submenu li:hover>.submenu{transform:translateY(1%);visibility:visible;opacity:1}.header-1 .header-main .main-menu ul li .submenu li.has-dropdown>a:after{position:absolute;top:50%;inset-inline-end:25px;transform:translateY(-50%);color:var(--theme)}.header-1 .header-main .main-menu ul li:hover>a{color:var(--theme2)}.header-1 .header-main .main-menu ul li:hover>a:after{color:var(--theme)}.header-1 .header-main .main-menu ul li:hover>.submenu{visibility:visible;opacity:1;transform:translateY(0)}.header-1 .header-main .sidebar__toggle{cursor:pointer}.header-1 .header-right{display:flex;align-items:center;justify-content:end}.header-1 .header-right .category-oneadjust{display:flex;align-items:center;position:relative;padding:25px 0}@media (max-width: 1600px){.header-1 .header-right .category-oneadjust{display:none!important}}.header-1 .header-right .category-oneadjust .icon{position:absolute;top:40px;left:20px;color:var(--theme)}.header-1 .header-right .category-oneadjust .search-toggle-box{width:319px}@media (max-width: 1600px){.header-1 .header-right .category-oneadjust .search-toggle-box{width:150px}}@media (max-width: 1399px){.header-1 .header-right .category-oneadjust .search-toggle-box{width:70px}}@media (max-width: 1199px){.header-1 .header-right .category-oneadjust .search-toggle-box{width:60px}}.header-1 .header-right .category-oneadjust .search-toggle-box .input-area{position:relative}.header-1 .header-right .category-oneadjust .search-toggle-box .input-area input{outline:none;border:1px solid rgba(92,112,126,.3);background-color:var(--white);padding:14px 20px;width:100%;border-radius:0 100px 100px 0;color:var(--header);font-weight:500}.header-1 .header-right .category-oneadjust .search-toggle-box .input-area input::placeholder{color:var(--header);font-weight:500}.header-1 .header-right .category-oneadjust .search-toggle-box .input-area .cmn-btn{position:absolute;top:15px;right:20px;font-size:18px;color:var(--header)}.header-1 .header-right .menu-cart{position:relative;display:flex;align-items:center;gap:10px;padding:30px 0 30px 35px}@media (max-width: 1199px){.header-1 .header-right .menu-cart{padding:0}}.header-1 .header-right .menu-cart .cart-icon{position:relative;width:50px;height:50px;text-align:center;line-height:50px;background-color:transparent;display:inline-block;border-radius:50%;border:1px solid rgba(79,83,107,.3)}@media (max-width: 1199px){.header-1 .header-right .menu-cart .cart-icon{display:none}}.header-1 .header-right .menu-cart .cart-icon:before{position:absolute;top:-7px;left:0;content:"0";width:18px;line-height:18px;height:18px;border-radius:18px;background-color:var(--theme);color:var(--white);font-size:12px;text-align:center;font-weight:500}.header-1 .header-right .menu-cart .cart-icon i{color:var(--header)}.header-1 .header-right .menu-cart .sidebar__toggle .bar-icon-2{width:50px;height:50px;text-align:center;line-height:45px;background-color:transparent;display:inline-block;border-radius:50%;border:1px solid rgba(79,83,107,.3)}.sticky-header{background-color:var(--white);padding:3px;text-align:center;position:fixed;top:0;width:100%;z-index:15;transform:translateY(-120%);transition:transform .3s ease-in-out;-webkit-transform:translateY(-120%);-moz-transform:translateY(-120%);-ms-transform:translateY(-120%);-o-transform:translateY(-120%)}.sticky-header .header-left .logo{margin-bottom:0}.sticky-header .header-main{display:flex;align-items:center;justify-content:space-between}.sticky-header .header-main:before{content:"";position:absolute;top:-1%;left:-3%;width:458px;height:119px;z-index:2;border-radius:0 100px 0 0;background-color:var(--header);-webkit-border-radius:0px 100px 0px 0px;-moz-border-radius:0px 100px 0px 0px;-ms-border-radius:0px 100px 0px 0px;-o-border-radius:0px 100px 0px 0px}@media (max-width: 1600px){.sticky-header .header-main:before{width:290px}}@media (max-width: 1399px){.sticky-header .header-main:before{width:350px;height:119px}}@media (max-width: 1199px){.sticky-header .header-main:before{width:350px;height:87px}}@media (max-width: 991px){.sticky-header .header-main:before{width:250px;height:89px}}.sticky-header .header-main:after{content:"";position:absolute;top:-1%;left:-3%;width:470px;height:119px;z-index:1;border-radius:0 100px 0 0;background:var(--white);-webkit-border-radius:0px 100px 0px 0px;-moz-border-radius:0px 100px 0px 0px;-ms-border-radius:0px 100px 0px 0px;-o-border-radius:0px 100px 0px 0px}@media (max-width: 1600px){.sticky-header .header-main:after{width:300px}}@media (max-width: 1399px){.sticky-header .header-main:after{width:360px;height:119px}}@media (max-width: 1199px){.sticky-header .header-main:after{width:360px;height:87px}}@media (max-width: 991px){.sticky-header .header-main:after{width:250px;height:89px}}.sticky-header .header-main .main-menu ul{margin-bottom:0}.sticky-header .header-main .main-menu ul li{position:relative;list-style:none;display:inline-block;margin-inline-end:40px;padding:28px 0}@media (max-width: 1600px){.sticky-header .header-main .main-menu ul li{margin-inline-end:25px}}@media (max-width: 1399px){.sticky-header .header-main .main-menu ul li{margin-inline-end:30px}}.sticky-header .header-main .main-menu ul li:last-child{margin-right:0}.sticky-header .header-main .main-menu ul li a{display:inline-block;font-size:16px;font-weight:600;color:var(--header);padding:15px 0;text-align:left;position:relative;text-transform:capitalize;transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out}.sticky-header .header-main .main-menu ul li a i{margin-left:4px}.sticky-header .header-main .main-menu ul li a:hover{color:var(--theme2)!important}.sticky-header .header-main .main-menu ul li .submenu{position:absolute;top:100%;inset-inline-start:0;min-width:240px;background:var(--white);z-index:99999;visibility:hidden;opacity:0;transform-origin:top center;color:var(--header);box-shadow:0 0 10px #0003;-webkit-box-shadow:0px 0px 10px 0px rgba(0,0,0,.2);-moz-box-shadow:0px 0px 10px 0px rgba(0,0,0,.2);transform:translateY(10px);transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out}.sticky-header .header-main .main-menu ul li .submenu li{display:block;width:100%;margin:0;padding:0}.sticky-header .header-main .main-menu ul li .submenu li a{position:relative;z-index:11;font-size:16px;font-weight:500;color:var(--header);padding:11px 25px;width:100%;border-bottom:1px solid #eeeeee}.sticky-header .header-main .main-menu ul li .submenu li:last-child a{border:none}.sticky-header .header-main .main-menu ul li .submenu li .submenu{inset-inline-start:100%;top:0;visibility:hidden;opacity:0}.sticky-header .header-main .main-menu ul li .submenu li:hover>a{background:var(--theme2);color:var(--white)!important}.sticky-header .header-main .main-menu ul li .submenu li:hover>a:after{color:var(--theme)}.sticky-header .header-main .main-menu ul li .submenu li:hover>.submenu{transform:translateY(1%);visibility:visible;opacity:1}.sticky-header .header-main .main-menu ul li .submenu li.has-dropdown>a:after{position:absolute;top:50%;inset-inline-end:25px;transform:translateY(-50%);color:var(--theme)}.sticky-header .header-main .main-menu ul li:hover>a{color:var(--theme2)}.sticky-header .header-main .main-menu ul li:hover>a:after{color:var(--theme)}.sticky-header .header-main .main-menu ul li:hover>.submenu{visibility:visible;opacity:1;transform:translateY(0)}.sticky-header .header-main .sidebar__toggle{cursor:pointer;font-size:20px;color:var(--white)}.offcanvas__info{background:var(--bg) none repeat scroll 0 0;border-left:2px solid var(--theme);position:fixed;right:0;top:0;width:400px;height:100%;transform:translate(calc(100% + 80px));transition:transform .45s ease-in-out,opacity .45s ease-in-out;z-index:99999;overflow-y:scroll;overscroll-behavior-y:contain;scrollbar-width:none}.offcanvas__info::-webkit-scrollbar{display:none}.offcanvas__logo a img{width:150px}.offcanvas__wrapper{position:relative;height:100%;padding:30px}.offcanvas__wrapper .offcanvas__content .text{color:var(--text)}.offcanvas__wrapper .offcanvas__content .offcanvas__close{width:45px;height:45px;line-height:45px;text-align:center;border-radius:50%;background-color:var(--theme);position:relative;z-index:9;cursor:pointer}.offcanvas__wrapper .offcanvas__content .offcanvas__close i{color:var(--white)}.offcanvas__wrapper .offcanvas__content .offcanvas__contact,.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul{margin-top:20px}.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li{font-size:16px;font-weight:600;text-transform:capitalize}.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li a{color:var(--text)}.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li:not(:last-child){margin-bottom:15px}.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li .offcanvas__contact-icon{margin-right:20px}.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li .offcanvas__contact-icon i{color:var(--theme)}.offcanvas__wrapper .offcanvas__content .offcanvas__contact span{text-transform:initial}.offcanvas__wrapper .offcanvas__content .offcanvas__contact .header-button .theme-btn{width:100%;padding:16px 40px;text-transform:capitalize!important}.offcanvas__wrapper .offcanvas__content .offcanvas__contact .social-icon{margin-top:30px;gap:10px}.offcanvas__wrapper .offcanvas__content .offcanvas__contact .social-icon a{width:45px;height:45px;line-height:45px;font-size:16px;display:block;background:transparent;color:var(--text);border-radius:50%;transition:all .4s ease-in-out;text-align:center;border:1px solid var(--border)}.offcanvas__wrapper .offcanvas__content .offcanvas__contact .social-icon a:hover{background-color:var(--theme2);color:var(--white)}.offcanvas__overlay{position:fixed;height:100%;width:100%;background:#151515;z-index:900;top:0;opacity:0;visibility:hidden;right:0}@media (max-width: 450px){.offcanvas__info{width:300px}}@media (max-width: 575px){.offcanvas__wrapper{padding:20px}}.fix{overflow:hidden}.form-check-input:checked{background-color:var(--theme2)!important;border-color:var(--theme2)!important}.footer-bg{background-color:var(--header)}.cursor-follower{position:fixed;background:var(--theme);border:1px solid var(--theme);width:15px;height:15px;border-radius:100%;z-index:999999;transition:.6s cubic-bezier(.75,-1.27,.3,2.33) transform,.2s cubic-bezier(.75,-.27,.3,1.33) opacity,.2s cubic-bezier(.75,-.27,.3,1.33) background;-webkit-user-select:none;user-select:none;pointer-events:none;transform:translate(2px,2px);opacity:.7;mix-blend-mode:multiply}.preloader{align-items:center;cursor:default;display:flex;height:100%;justify-content:center;position:fixed;left:0;top:0;width:100%;z-index:9999999}.preloader .animation-preloader{z-index:1000}.preloader .animation-preloader .spinner{animation:spinner 1s infinite linear;border-radius:50%;border:3px solid rgba(0,0,0,.2);border-top-color:var(--theme);height:9em;margin:0 auto 3.5em;width:9em}@media (max-width: 767px){.preloader .animation-preloader .spinner{width:7.5em;height:7.5em;margin:0 auto 1.5em}}.preloader .animation-preloader .txt-loading{font:700 5em Inter,sans-serif,Inter,sans-serif;text-align:center;-webkit-user-select:none;user-select:none}@media (max-width: 767px){.preloader .animation-preloader .txt-loading{font-size:2.5em}}.preloader .animation-preloader .txt-loading .letters-loading{color:var(--theme);position:relative}.preloader .animation-preloader .txt-loading .letters-loading:nth-child(2):before{animation-delay:.2s}.preloader .animation-preloader .txt-loading .letters-loading:nth-child(3):before{animation-delay:.4s}.preloader .animation-preloader .txt-loading .letters-loading:nth-child(4):before{animation-delay:.6s}.preloader .animation-preloader .txt-loading .letters-loading:nth-child(5):before{animation-delay:.8s}.preloader .animation-preloader .txt-loading .letters-loading:nth-child(6):before{animation-delay:1s}.preloader .animation-preloader .txt-loading .letters-loading:before{animation:letters-loading 4s infinite;color:var(--header);content:attr(data-text-preloader);left:0;opacity:0;font-family:Inter,sans-serif;position:absolute;top:-3px;transform:rotateY(-90deg)}.preloader p{font-size:15px;font-weight:600;text-transform:uppercase;letter-spacing:8px;color:var(--theme)}.preloader .loader{position:fixed;top:0;left:0;width:100%;height:100%;font-size:0;z-index:1;pointer-events:none}.preloader .loader .row{height:100%}.preloader .loader .loader-section{padding:0}.preloader .loader .loader-section .bg{background-color:var(--bg);height:100%;left:0;width:100%;transition:all .8s cubic-bezier(.77,0,.175,1)}.back-to-top{border-radius:12px;background-color:var(--theme);width:50px;height:50px;line-height:50px;color:var(--white);font-size:18px;position:fixed;display:inline-block;z-index:99;right:30px;bottom:30px;transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;opacity:0;visibility:hidden;transform:translateY(20px)}.back-to-top:hover{background-color:var(--header)}</style><link rel="stylesheet" href="styles.b22f8a773bdb8e80.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.b22f8a773bdb8e80.css"></noscript></head>
+
+<body>
+    <!-- Cursor follower -->
+    <div class="cursor-follower"></div>
+
+    <!-- Preloader start -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="spinner">
+            </div>
+            <div class="txt-loading">
+                <span data-text-preloader="B" class="letters-loading">
+                    B
+                </span>
+                <span data-text-preloader="O" class="letters-loading">
+                    O
+                </span>
+                <span data-text-preloader="O" class="letters-loading">
+                    O
+                </span>
+                <span data-text-preloader="K" class="letters-loading">
+                    K
+                </span>
+                <span data-text-preloader="L" class="letters-loading">
+                    L
+                </span>
+                <span data-text-preloader="E" class="letters-loading">
+                    E
+                </span>
+            </div>
+            <p class="text-center">Loading</p>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back To Top start -->
+    <button id="back-top" class="back-to-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Offcanvas Area start  -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="/home">
+                                <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
+                        feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                    </p>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <div class="offcanvas__contact">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="/home">Main Street, Melbourne, Australia</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="mailto:info@example.com"><span class="mailto:info@example.com">info@example.com</span></a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-clock"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="/home">Mod-friday, 09am -05pm</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="far fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel:+11002345909">+11002345909</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-button mt-4">
+                            <a href="/contact" class="theme-btn text-center">
+                                Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <div class="header-top-1">
+        <div class="container">
+            <div class="header-top-wrapper">
+                <ul class="contact-list">
+                    <li>
+                        <i class="fa-regular fa-phone"></i>
+                        <a href="tel:+20866660112">+208-6666-0112</a>
+                    </li>
+                    <li>
+                        <i class="far fa-envelope"></i>
+                        <a href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li>
+                        <i class="far fa-clock"></i>
+                        <span>Sunday - Fri: 9 aM - 6 pM</span>
+                    </li>
+                </ul>
+                <ul class="list">
+                    <li><i class="fa-light fa-comments"></i><a href="/contact">Live Chat</a></li>
+                    <li><i class="fa-light fa-user"></i>
+                        <button data-bs-toggle="modal" data-bs-target="#loginModal">
+                            Login
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Header Section start  -->
+    <header class="header-1 sticky-header">
+        <div class="mega-menu-wrapper">
+            <div class="header-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-10 col-xl-8 col-xxl-10">
+                            <div class="header-left">
+                                <div class="logo">
+                                    <a href="/home" class="header-logo">
+                                        <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                    </a>
+                                </div>
+                                <div class="mean__menu-wrapper">
+                                    <div class="main-menu">
+                                        <nav>
+                                            <ul>
+                                                <li>
+                                                    <a href="/home">
+                                                        Home
+                                                        <i class="fas fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="/home">Home 01</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        Shop
+                                                        <i class="fas fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="shop.html">Shop Default</a></li>
+                                                        <li><a href="/shop-list">Shop List</a></li>
+                                                        <li><a href="shop-details.html">Shop Details</a></li>
+                                                        <li><a href="shop-cart.html">Shop Cart</a></li>
+                                                        <li><a href="/wish-list">Wishlist</a></li>
+                                                        <li><a href="checkout.html">Checkout</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-dropdown">
+                                                    <a>
+                                                        Pages
+                                                        <i class="fas fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="/about-us">About Us</a></li>
+                                                        <li class="has-dropdown">
+                                                            <a href="team.html">
+                                                                Author
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+                                                            <ul class="submenu">
+                                                                <li><a href="team.html">Author</a></li>
+                                                                <li><a href="team-details.html">Author Profile</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="faq.html">Faq's</a></li>
+                                                        <li><a href="/error-page">404 Page</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        Blog
+                                                        <i class="fas fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="news-grid.html">Blog Grid</a></li>
+                                                        <li><a href="news.html">Blog List</a></li>
+                                                        <li><a href="news-details.html">Blog Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="/contact">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-2 col-xl-4 col-xxl-2">
+                            <div class="header-right">
+                                <div class="category-oneadjust gap-6 d-flex align-items-center">
+                                    <div class="icon">
+                                        <i class="fa-sharp fa-solid fa-grid-2"></i>
+                                    </div>
+                                    <select name="cate" class="category">
+                                        <option value="1">
+                                            Category
+                                        </option>
+                                        <option value="1">
+                                            Web Design
+                                        </option>
+                                        <option value="1">
+                                            Web Development
+                                        </option>
+                                        <option value="1">
+                                            Graphic Design
+                                        </option>
+                                        <option value="1">
+                                            Softwer Eng
+                                        </option>
+                                    </select>
+                                    <form action="#" class="search-toggle-box d-md-block">
+                                        <div class="input-area">
+                                            <input type="text" placeholder="Author">
+                                            <button class="cmn-btn">
+                                                <i class="far fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="menu-cart">
+                                    <a href="wishlist.html" class="cart-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="shop-cart.html" class="cart-icon">
+                                        <i class="fa-regular fa-cart-shopping"></i>
+                                    </a>
+                                    <div class="header-humbager ml-30">
+                                        <a class="sidebar__toggle" href="javascript:void(0)">
+                                            <div class="bar-icon-2">
+                                                <img src="assets/img/icon/icon-13.svg" alt="img">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Header Section start  -->
+    <header class="header-1">
+        <div class="mega-menu-wrapper">
+            <div class="header-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-10 col-xl-8 col-xxl-10">
+                            <div class="header-left">
+                                <div class="logo">
+                                    <a href="/home" class="header-logo">
+                                        <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                    </a>
+                                </div>
+                                <div class="mean__menu-wrapper">
+                                    <div class="main-menu">
+                                        <nav id="mobile-menu">
+                                            <ul>
+                                                <li>
+                                                    <a href="/home">
+                                                        Home
+                                                        <i class="fas fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="/home">Home 01</a></li>
+                                                        <li><a href="index-2.html">Home 02</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        Shop
+                                                        <i class="fas fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="shop.html">Shop Default</a></li>
+                                                        <li><a href="/shop-list">Shop List</a></li>
+                                                        <li><a href="shop-details.html">Shop Details</a></li>
+                                                        <li><a href="shop-cart.html">Shop Cart</a></li>
+                                                        <li><a href="/wish-list">Wishlist </a></li>
+                                                        <li><a href="checkout.html">Checkout</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-dropdown">
+                                                    <a>
+                                                        Pages
+                                                        <i class="fas fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="/about-us">About Us</a></li>
+                                                        <li class="has-dropdown">
+                                                            <a href="team.html">
+                                                                Author
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+                                                            <ul class="submenu">
+                                                                <li><a href="team.html">Author</a></li>
+                                                                <li><a href="team-details.html">Author Profile</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="faq.html">Faq's</a></li>
+                                                        <li><a href="/error-page">404 Page</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                        Blog
+                                                        <i class="fas fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="news-grid.html">Blog Grid</a></li>
+                                                        <li><a href="news.html">Blog List</a></li>
+                                                        <li><a href="news-details.html">Blog Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="/contact">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-2 col-xl-4 col-xxl-2">
+                            <div class="header-right">
+                                <div class="category-oneadjust gap-6 d-flex align-items-center">
+                                    <div class="icon">
+                                        <i class="fa-sharp fa-solid fa-grid-2"></i>
+                                    </div>
+                                    <select name="cate" class="category">
+                                        <option value="1">
+                                            Category
+                                        </option>
+                                        <option value="1">
+                                            Web Design
+                                        </option>
+                                        <option value="1">
+                                            Web Development
+                                        </option>
+                                        <option value="1">
+                                            Graphic Design
+                                        </option>
+                                        <option value="1">
+                                            Softwer Eng
+                                        </option>
+                                    </select>
+                                    <form action="#" class="search-toggle-box d-md-block">
+                                        <div class="input-area">
+                                            <input type="text" placeholder="Author">
+                                            <button class="cmn-btn">
+                                                <i class="far fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="menu-cart">
+                                    <a href="wishlist.html" class="cart-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="shop-cart.html" class="cart-icon">
+                                        <i class="fa-regular fa-cart-shopping"></i>
+                                    </a>
+                                    <div class="header-humbager ml-30">
+                                        <a class="sidebar__toggle" href="javascript:void(0)">
+                                            <div class="bar-icon-2">
+                                                <img src="assets/img/icon/icon-13.svg" alt="img">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="close-btn">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="identityBox">
+                        <div class="form-wrapper">
+                            <h1 id="loginModalLabel">welcome back!</h1>
+                            <input class="inputField" type="email" name="email" placeholder="Email Address">
+                            <input class="inputField" type="password" name="password" placeholder="Enter Password">
+                            <div class="input-check remember-me">
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" class="form-check-input" name="save-for-next" id="saveForNext">
+                                    <label for="saveForNext">Remember me</label>
+                                </div>
+                                <div class="text"> <a href="index-2.html">Forgot Your password?</a> </div>
+                            </div>
+                            <div class="loginBtn">
+                                <a href="index-2.html" class="theme-btn rounded-0"> Log in </a>
+                            </div>
+                            <div class="orting-badge">
+                                Or
+                            </div>
+                            <div>
+                                <a class="another-option" href="https://www.google.com/">
+                                    <img src="assets/img/google.png" alt="google">
+                                    Continue With Google
+                                </a>
+                            </div>
+                            <div>
+                                <a class="another-option another-option-two" href="https://www.facebook.com/">
+                                    <img src="assets/img/facebook.png" alt="google">
+                                    Continue With Facebook
+                                </a>
+                            </div>
+
+                            <div class="form-check-3 d-flex align-items-center from-customradio-2 mt-3">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault">
+                                <label class="form-check-label">
+                                    I Accept Your Terms & Conditions
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="banner">
+                            <button type="button" class="rounded-0 login-btn" data-bs-toggle="modal" data-bs-target="#loginModal">Log in</button>
+                            <button type="button" class="theme-btn rounded-0 register-btn" data-bs-toggle="modal" data-bs-target="#registrationModal">Create
+                                Account</button>
+                            <div class="loginBg">
+                                <img src="assets/img/signUpbg.jpg" alt="signUpBg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Modal -->
+    <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="close-btn">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="identityBox">
+                        <div class="form-wrapper">
+                            <h1 id="registrationModalLabel">Create account!</h1>
+                            <input class="inputField" type="text" name="name" id="name" placeholder="User Name">
+                            <input class="inputField" type="email" name="email" placeholder="Email Address">
+                            <input class="inputField" type="password" name="password" placeholder="Enter Password">
+                            <input class="inputField" type="password" name="password" placeholder="Enter Confirm Password">
+                            <div class="input-check remember-me">
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" class="form-check-input" name="save-for-next" id="rememberMe">
+                                    <label for="rememberMe">Remember me</label>
+                                </div>
+                                <div class="text"> <a href="index-2.html">Forgot Your password?</a> </div>
+                            </div>
+                            <div class="loginBtn">
+                                <a href="index-2.html" class="theme-btn rounded-0"> Log in </a>
+                            </div>
+                            <div class="orting-badge">
+                                Or
+                            </div>
+                            <div>
+                                <a class="another-option" href="https://www.google.com/">
+                                    <img src="assets/img/google.png" alt="google">
+                                    Continue With Google
+                                </a>
+                            </div>
+                            <div>
+                                <a class="another-option another-option-two" href="https://www.facebook.com/">
+                                    <img src="assets/img/facebook.png" alt="google">
+                                    Continue With Facebook
+                                </a>
+                            </div>
+                            <div class="form-check-3 d-flex align-items-center from-customradio-2 mt-3">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault">
+                                <label class="form-check-label">
+                                    I Accept Your Terms & Conditions
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="banner">
+                            <button type="button" class="rounded-0 login-btn" data-bs-toggle="modal" data-bs-target="#loginModal">Log in</button>
+                            <button type="button" class="theme-btn rounded-0 register-btn" data-bs-toggle="modal" data-bs-target="#registrationModal">Create
+                                Account</button>
+                            <div class="signUpBg">
+                                <img src="assets/img/registrationbg.jpg" alt="signUpBg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <app-root></app-root>
+    <!-- Footer Section start  -->
+    <footer class="footer-section footer-bg">
+        <div class="container">
+            <div class="contact-info-area">
+                <div class="contact-info-items wow fadeInUp" data-wow-delay=".2s">
+                    <div class="icon">
+                        <i class="icon-icon-5"></i>
+                    </div>
+                    <div class="content">
+                        <p>Call Us 7/24</p>
+                        <h3>
+                            <a href="tel:+2085550112">+208-555-0112</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="contact-info-items wow fadeInUp" data-wow-delay=".4s">
+                    <div class="icon">
+                        <i class="icon-icon-6"></i>
+                    </div>
+                    <div class="content">
+                        <p>Make a Quote</p>
+                        <h3>
+                            <a href="mailto:example@gmail.com">example@gmail.com</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="contact-info-items wow fadeInUp" data-wow-delay=".6s">
+                    <div class="icon">
+                        <i class="icon-icon-7"></i>
+                    </div>
+                    <div class="content">
+                        <p>Opening Hour</p>
+                        <h3>
+                            Sunday - Fri: 9 aM - 6 pM
+                        </h3>
+                    </div>
+                </div>
+                <div class="contact-info-items wow fadeInUp" data-wow-delay=".8s">
+                    <div class="icon">
+                        <i class="icon-icon-8"></i>
+                    </div>
+                    <div class="content">
+                        <p>Location</p>
+                        <h3>
+                            4517 Washington ave.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-widgets-wrapper">
+            <div class="plane-shape float-bob-y">
+                <img src="assets/img/plane-shape.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <a href="/home">
+                                    <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                </a>
+                            </div>
+                            <div class="footer-content">
+                                <p>
+                                    Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur
+                                    lacinia mollis
+                                </p>
+                                <div class="social-icon d-flex align-items-center">
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Costumers Support</h3>
+                            </div>
+                            <ul class="list-area">
+                                <li>
+                                    <a href="shop.html">
+                                        <i class="fa-solid fa-chevrons-right"></i>
+                                        Store List
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/contact">
+                                        <i class="fa-solid fa-chevrons-right"></i>
+                                        Opening Hours
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/contact">
+                                        <i class="fa-solid fa-chevrons-right"></i>
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/contact">
+                                        <i class="fa-solid fa-chevrons-right"></i>
+                                        Return Policy
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Categories</h3>
+                            </div>
+                            <ul class="list-area">
+                                <li>
+                                    <a href="shop.html">
+                                        <i class="fa-solid fa-chevrons-right"></i>
+                                        Novel Books
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">
+                                        <i class="fa-solid fa-chevrons-right"></i>
+                                        Poetry Books
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/contact">
+                                        <i class="fa-solid fa-chevrons-right"></i>
+                                        Political Books
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/contact">
+                                        <i class="fa-solid fa-chevrons-right"></i>
+                                        History Books
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Newsletter</h3>
+                            </div>
+                            <div class="footer-content">
+                                <p>Sign up to searing weekly newsletter to get the latest updates.</p>
+                                <div class="footer-input">
+                                    <input type="email" id="email2" placeholder="Enter Email Address">
+                                    <button class="newsletter-btn" type="submit">
+                                        <i class="fa-regular fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-wrapper d-flex align-items-center justify-content-between">
+                    <p class="wow fadeInLeft" data-wow-delay=".3s">
+                        © All Copyright 2024 by <a href="/home">Bookle</a>
+                    </p>
+                    <ul class="brand-logo wow fadeInRight" data-wow-delay=".5s">
+                        <li>
+                            <a href="/contact">
+                                <img src="assets/img/visa-logo.png" alt="img">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/contact">
+                                <img src="assets/img/mastercard.png" alt="img">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/contact">
+                                <img src="assets/img/payoneer.png" alt="img">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/contact">
+                                <img src="assets/img/affirm.png" alt="img">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--<< All JS Plugins >>-->
+    <!--
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/viewport.jquery.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    -->
+<script src="runtime.9e516a10bc4224ac.js" type="module"></script><script src="polyfills.298fc9836612cbed.js" type="module"></script><script src="scripts.cf5e83bb860d6e15.js" defer></script><script src="main.bb027333dc40020b.js" type="module"></script></body>
+
+</html>
