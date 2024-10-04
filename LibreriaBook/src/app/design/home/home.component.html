@@ -1,5 +1,5 @@
- <!-- Hero Section start  -->
- <div class="hero-section hero-1 fix">
+<!-- Hero Section start  -->
+<div class="hero-section hero-1 fix">
     <div class="container">
         <div class="row">
             <div class="col-12 col-xl-8 col-lg-6">
@@ -103,10 +103,10 @@
         </div>
         <div class="swiper book-slider">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <div *ngFor="let lstpro of lstPromocion" class="swiper-slide">
                     <div class="shop-box-items style-2">
                         <div class="book-thumb center">
-                            <a href="shop-details"><img src="assets/img/book/01.png" alt="img"></a>
+                            <a href="shop-details"><img src="{{lstpro.imagen_tapa}}" alt="img"></a>
                             <ul class="post-box">
                                 <li>
                                     Hot
@@ -130,8 +130,8 @@
                             </ul>
                         </div>
                         <div class="shop-content">
-                            <h5> Design Low Book </h5>
-                            <h3><a href="shop-details.html">Simple Things You To <br> Save BOOK</a></h3>
+                            <h5> {{lstpro.canal_venta}} </h5>
+                            <h3><a href="shop-details.html">{{lstpro.titulo}}</a></h3>
                             <ul class="price-list">
                                 <li>$30.00</li>
                                 <li>
@@ -143,7 +143,7 @@
                                     <span class="thumb">
                                         <img src="assets/img/testimonial/client-1.png" alt="img">
                                     </span>
-                                    <span class="content">Wilson</span>
+                                    <span class="content">{{lstpro.editor}}</span>
                                 </li>
                                 <li class="star">
                                     <i class="fa-solid fa-star"></i>
@@ -155,11 +155,12 @@
                             </ul>
                         </div>
                         <div class="shop-button">
-                            <a href="shop-details.html" class="theme-btn"><i
-                                    class="fa-solid fa-basket-shopping"></i> Add To Cart</a>
+                            <a href="shop-details.html" class="theme-btn"><i class="fa-solid fa-basket-shopping"></i>
+                                Add To Cart</a>
                         </div>
                     </div>
                 </div>
+                <!--
                 <div class="swiper-slide">
                     <div class="shop-box-items style-2">
                         <div class="book-thumb center">
@@ -355,6 +356,7 @@
                         </div>
                     </div>
                 </div>
+                -->
             </div>
         </div>
     </div>
@@ -1106,8 +1108,8 @@
                             </ul>
                         </div>
                         <div class="shop-button">
-                            <a href="shop-details.html" class="theme-btn"><i
-                                    class="fa-solid fa-basket-shopping"></i> Add To Cart</a>
+                            <a href="shop-details.html" class="theme-btn"><i class="fa-solid fa-basket-shopping"></i>
+                                Add To Cart</a>
                         </div>
                     </div>
                 </div>
@@ -1157,8 +1159,8 @@
                             </ul>
                         </div>
                         <div class="shop-button">
-                            <a href="shop-details.html" class="theme-btn"><i
-                                    class="fa-solid fa-basket-shopping"></i> Add To Cart</a>
+                            <a href="shop-details.html" class="theme-btn"><i class="fa-solid fa-basket-shopping"></i>
+                                Add To Cart</a>
                         </div>
                     </div>
                 </div>
@@ -1208,8 +1210,8 @@
                             </ul>
                         </div>
                         <div class="shop-button">
-                            <a href="shop-details.html" class="theme-btn"><i
-                                    class="fa-solid fa-basket-shopping"></i> Add To Cart</a>
+                            <a href="shop-details.html" class="theme-btn"><i class="fa-solid fa-basket-shopping"></i>
+                                Add To Cart</a>
                         </div>
                     </div>
                 </div>
@@ -1264,8 +1266,8 @@
                             </ul>
                         </div>
                         <div class="shop-button">
-                            <a href="shop-details.html" class="theme-btn"><i
-                                    class="fa-solid fa-basket-shopping"></i> Add To Cart</a>
+                            <a href="shop-details.html" class="theme-btn"><i class="fa-solid fa-basket-shopping"></i>
+                                Add To Cart</a>
                         </div>
                     </div>
                 </div>
@@ -1315,8 +1317,8 @@
                             </ul>
                         </div>
                         <div class="shop-button">
-                            <a href="shop-details.html" class="theme-btn"><i
-                                    class="fa-solid fa-basket-shopping"></i> Add To Cart</a>
+                            <a href="shop-details.html" class="theme-btn"><i class="fa-solid fa-basket-shopping"></i>
+                                Add To Cart</a>
                         </div>
                     </div>
                 </div>
